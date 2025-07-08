@@ -402,7 +402,6 @@ main{
 }
 .grey{
     background-color: #EFEFEF;
-    display: flex;
 }
 .grey_box{
     width: 100%;
@@ -411,6 +410,7 @@ main{
     padding-top: 25px;
     padding-bottom: 25px;
     display: flex;
+    justify-content: space-between;
 }
 .grey_box--text{
     font-family: Roboto;
